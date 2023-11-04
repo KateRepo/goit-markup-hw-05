@@ -795,9 +795,10 @@ ol {
 }
 
 .review-form-checkbox-label {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
+  line-height: 1.16;
   color: rgba(64, 64, 64, 0.6);
 }
 
