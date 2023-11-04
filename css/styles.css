@@ -578,8 +578,8 @@ ol {
 .footer-subscribe-input {
   font-weight: 400;
   font-size: 12px;
-  line-height: 2;
-  letter-spacing: 0.03em;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--primary-background-color);
   background-color: transparent;
   min-width: 264px;
@@ -588,7 +588,7 @@ ol {
   padding-left: 16px;
   border-radius: 4px;
   border: 1px solid var(--primary-background-color);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   outline: none;
 }
 
@@ -722,7 +722,7 @@ ol {
   font-size: 12px;
   font-weight: 400;
   line-height: 1.17;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.04em;
   color: var(--modal-form-text);
   margin-bottom: 4px;
 }
@@ -739,7 +739,7 @@ ol {
   padding-left: 38px;
   background-color: transparent;
   outline: transparent;
-  transition: border-color 250ms cubic-bezier (0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .review-form-field:focus {
@@ -758,7 +758,7 @@ ol {
   left: 16px;
   transform: translateY(-50%);
   fill: var(--dark-background-color);
-  transition: fill 250ms cubic-bezier (0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .review-form-textarea-wrapper {
   margin-bottom: 16px;
@@ -797,9 +797,9 @@ ol {
 .review-form-checkbox-label {
   font-size: 12px;
   font-weight: 400;
-  letter-spacing: 0.03em;
-  line-height: 1.16;
-  color: rgba(64, 64, 64, 0.6);
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--modal-form-text);
 }
 
 .privacy-policy-link {
@@ -834,6 +834,7 @@ ol {
   .review-form-own-checkbox {
   background-color: var(--hover-color);
   fill: var(--grey-background-color);
+  border: none;
 }
 
 .review-form-checkbox:focus
